@@ -319,6 +319,21 @@ if __name__ == "__main__":
 By leveraging Rich Error, we can simplify error management, reduce duplication, and enhance the observability of our error handling mechanism.
 
 
+## Changing the Default Code of Rich Error
+
+If your error is of the type `Exception` and is not a `RichError`, or if your error does not have an associated code, the default code for Rich Error (which is `50000`) will be displayed.
+
+To change the default code, you can set this value in your environment variables as follows:
+
+```python
+from os import environ
+
+environ["RICH_ERROR_DEFAULT_CODE"] = "50100"
+```
+
+By doing this, you can customize the default error code to better fit your application's needs, providing more meaningful error handling and responses.
+
+
 <div dir="rtl">
 
 <h3>Persian</h3>
@@ -646,5 +661,18 @@ if __name__ == "__main__":
 
 در این صورت هرچقدر تعداد exceptionها بیشتر شود duplicate و مدیریت کردن آنها نیز سخت تر خواهد شد. همچنین قدرت مشاهده گری سیستم با استفاده از exception ها نیز پایین می آید در صورتی که ما در rich error تمامی ارور هایی که در لایه های مختلف رخ داده باشن رو داشتیم.
 
+
+عوض کردن کد دیفالت rich error:
+
+اگر ارور شما از جنس Exception باشد و RichErorr نباشد یا اینکه ارور شما کدی نداشته باشد، کد پیشقرض rich error که 50000 است نشان داده میشود.
+برای تغییر کد پیشفرض کافی است در environment variables ها این مقدار را ست کنید:
+
+```python
+from os import environ
+
+environ["RICH_ERROR_DEFAULT_CODE"] = "50100"
+```
+
 اگر این ریپوزیتوری برای شما مفید بود، ممنون میشم با معرفی و ستاره دادن حمایت کنید
+
 </div>

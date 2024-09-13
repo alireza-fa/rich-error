@@ -11,7 +11,7 @@ def read(f):
 
 setup(
     name='rich_error',
-    version="0.0.2",
+    version="0.0.3",
     url='https://github.com/alireza-fa/rich-error',
     license='MIT',
     description='Implementation of rich error in Python.',
