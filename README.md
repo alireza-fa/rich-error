@@ -131,7 +131,7 @@ The `rich-error` package supports all the features we discussed. Here are some k
 By following these guidelines, you can effectively implement and utilize Rich Error in your applications.
 
 
-## Example Without Using Rich Error
+## Example Using Rich Error
 
 Let's consider an example where our application handles requests using a structure where a handler processes requests via a service, and if necessary, the service interacts with a database using a repository.
 
