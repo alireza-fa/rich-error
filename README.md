@@ -1,8 +1,8 @@
 # Rich Error
 
-<a href="https://github.com/alireza-fa/rich-error#%english">English</a>
+<a href="https://github.com/alireza-fa/rich-error?tab=readme-ov-file#english">English</a>
 
-<a href="https://github.com/alireza-fa/rich-error#%persian">Persian</a>
+<a href="https://github.com/alireza-fa/rich-error?tab=readme-ov-file#persian">Persian</a>
 
 
 <h3>English</h3>
